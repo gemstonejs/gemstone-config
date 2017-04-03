@@ -1,8 +1,8 @@
 
+<img src="https://rawgit.com/gemstonejs/gemstone-artwork/master/gemstone-logo-white.svg" width="300" align="right" alt=""/>
+
 Gemstone Config
 ===============
-
-<img src="https://rawgit.com/gemstonejs/gemstone-artwork/master/gemstone-logo-white.svg" width="300" align="right" alt=""/>
 
 Configuration Reader of the
 [Gemstone JavaScript Technology Stack](http://gemstonejs.com).
