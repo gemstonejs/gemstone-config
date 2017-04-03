@@ -30,6 +30,9 @@
         "extend":                         "~3.0.0",
         "js-yaml":                        "~3.8.2"
     },
+    "engines": {
+        "node":                           ">=6.0.0"
+    },
     "scripts": {
         "prepublish": "eslint --config eslint.yaml gemstone-config.js"
     },
