@@ -5,7 +5,7 @@ Gemstone Config
 Configuration Reader of the
 [Gemstone JavaScript Technology Stack](http://gemstonejs.com).
 
-<img src="https://rawgit.com/gemstonejs/gemstone-artwork/master/gemstone-logo-white.svg" width="300" align="right" alt=""/>
+<img src="https://rawgit.com/gemstonejs/gemstone-artwork/master/gemstone-logo-white.svg" width="350" align="right" alt=""/>
 <p/>
 <img src="https://nodei.co/npm/gemstone-config.png?downloads=true&stars=true" alt=""/>
 <p/>
