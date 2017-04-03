@@ -1,11 +1,9 @@
 
+<img src="https://rawgit.com/gemstonejs/gemstone-artwork/master/gemstone-logo-white.svg" width="300" align="right" alt=""/>
+
 Gemstone Config
 ===============
 
-Configuration Reader of the
-[Gemstone JavaScript Technology Stack](http://gemstonejs.com).
-
-<img src="https://rawgit.com/gemstonejs/gemstone-artwork/master/gemstone-logo-white.svg" width="350" align="right" alt=""/>
 <p/>
 <img src="https://nodei.co/npm/gemstone-config.png?downloads=true&stars=true" alt=""/>
 <p/>
@@ -14,7 +12,8 @@ Configuration Reader of the
 About
 -----
 
-This is a Node.js module for loading `gemstone.yaml` configuration files.
+This is the `gemstone.yaml` configuration file reader of the
+[Gemstone JavaScript Technology Stack](http://gemstonejs.com).
 
 Copyright &amp; License
 -----------------------
