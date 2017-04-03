@@ -5,10 +5,9 @@ Gemstone Config
 Configuration Reader of the
 [Gemstone JavaScript Technology Stack](http://gemstonejs.com).
 
-<p/>
 <img src="https://rawgit.com/gemstonejs/gemstone-artwork/master/gemstone-logo-white.svg" width="300" align="right" alt=""/>
+<p/>
 <img src="https://nodei.co/npm/gemstone-config.png?downloads=true&stars=true" alt=""/>
-
 <p/>
 <img src="https://david-dm.org/rse/gemstone-config.png" alt=""/>
 
