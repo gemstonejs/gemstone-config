@@ -18,10 +18,11 @@
     "bugs":     "https://github.com/gemstonejs/gemstone-config/issues",
     "devDependencies": {
         "eslint":                         "~3.19.0",
-        "eslint-config-standard":         "~7.1.0",
-        "eslint-plugin-standard":         "~2.1.1",
+        "eslint-config-standard":         "~10.0.0",
+        "eslint-plugin-standard":         "~2.2.0",
         "eslint-plugin-promise":          "~3.5.0",
         "eslint-plugin-import":           "~2.2.0",
+        "eslint-plugin-node":             "~4.2.2",
         "babel-eslint":                   "~7.2.1"
     },
     "dependencies": {
