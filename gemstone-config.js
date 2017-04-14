@@ -36,6 +36,14 @@ module.exports = () => {
             replace: [],
             alias: [],
             rules: []
+        },
+        generator: {
+            mask:  "<name>.html",
+            style: "<name>.css",
+            i18n:  "<name>.yaml",
+            view:  "<name>.js",
+            model: "<name>.js",
+            ctrl:  "<name>.js"
         }
     }
 
@@ -77,6 +85,14 @@ module.exports = () => {
                 rules?: [
                     { test: string, use: object }*
                 ]
+            },
+            generator?: {
+                mask?:  string,
+                style?: string,
+                i18n?:  string,
+                view?:  string,
+                model?: string,
+                ctrl?:  string
             }
         }`, errors))
             throw new Error(`invalid Gemstone configuration chunk in "${filename}": ${errors.join("; ")}`)
