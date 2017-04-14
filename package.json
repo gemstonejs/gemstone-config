@@ -23,11 +23,11 @@
         "eslint-plugin-promise":          "~3.5.0",
         "eslint-plugin-import":           "~2.2.0",
         "eslint-plugin-node":             "~4.2.2",
-        "babel-eslint":                   "~7.2.1"
+        "babel-eslint":                   "~7.2.2"
     },
     "dependencies": {
         "fs-promise":                     "~2.0.2",
-        "ducky":                          "~2.5.0",
+        "ducky":                          "~2.5.1",
         "extend":                         "~3.0.0",
         "js-yaml":                        "~3.8.3"
     },
