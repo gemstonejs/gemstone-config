@@ -152,6 +152,15 @@ module.exports = () => {
         }
     }
 
+    /*  post-adjust header  */
+    cfg.header = cfg.header
+        .replace(/[ \t]+$/mg, "")
+        .replace(/^(?:\r?\n)+/, "")
+        .replace(/(?:\r?\n)+$/, "").replace(/$/, "\n")
+        .replace(/^/mg, "    ").replace(/\n *$/, "\n")
+        .replace(/[ \t]+$/mg, "")
+    console.log("<<" + cfg.header + ">>")
+
     return cfg
 }
 
