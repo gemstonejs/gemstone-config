@@ -159,7 +159,6 @@ module.exports = () => {
         .replace(/(?:\r?\n)+$/, "").replace(/$/, "\n")
         .replace(/^/mg, "    ").replace(/\n *$/, "\n")
         .replace(/[ \t]+$/mg, "")
-    console.log("<<" + cfg.header + ">>")
 
     return cfg
 }
