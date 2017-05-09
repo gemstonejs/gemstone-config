@@ -26,10 +26,10 @@
         "babel-eslint":                   "~7.2.3"
     },
     "dependencies": {
-        "fs-promise":                     "~2.0.2",
+        "fs-promise":                     "~2.0.3",
         "ducky":                          "~2.5.2",
         "extend":                         "~3.0.1",
-        "js-yaml":                        "~3.8.3"
+        "js-yaml":                        "~3.8.4"
     },
     "engines": {
         "node":                           ">=6.0.0"
