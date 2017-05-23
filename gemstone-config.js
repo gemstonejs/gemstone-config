@@ -4,7 +4,7 @@
 **  Licensed under Apache License 2.0 <https://spdx.org/licenses/Apache-2.0>
 */
 
-const fs     = require("fs-promise")
+const fs     = require("mz/fs")
 const ducky  = require("ducky")
 const extend = require("extend")
 const jsYAML = require("js-yaml")
