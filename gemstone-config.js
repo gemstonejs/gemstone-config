@@ -13,11 +13,11 @@ module.exports = () => {
     /*  default Gemstone configuration  */
     let cfg = {
         path: {
-            output: "./dst",
-            source: "./src",
+            output:   "./dst",
+            source:   "./src",
             resource: "./res",
-            main:   "index.js",
-            icon:   ""
+            main:     "index.js",
+            icon:     ""
         },
         meta: {
             title:       "Example",
