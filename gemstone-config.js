@@ -15,6 +15,7 @@ module.exports = () => {
         path: {
             output: "./dst",
             source: "./src",
+            resource: "./res",
             main:   "index.js",
             icon:   ""
         },
@@ -54,6 +55,7 @@ module.exports = () => {
             path?: {
                 output?: string,
                 source?: string,
+                resource?: string,
                 main?:   string,
                 icon?:   string
             },
