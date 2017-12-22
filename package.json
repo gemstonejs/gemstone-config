@@ -17,19 +17,19 @@
     "homepage": "https://github.com/gemstonejs/gemstone-config",
     "bugs":     "https://github.com/gemstonejs/gemstone-config/issues",
     "devDependencies": {
-        "eslint":                         "~4.4.1",
+        "eslint":                         "~4.13.1",
         "eslint-config-standard":         "~10.2.1",
         "eslint-plugin-standard":         "~3.0.1",
-        "eslint-plugin-promise":          "~3.5.0",
-        "eslint-plugin-import":           "~2.7.0",
-        "eslint-plugin-node":             "~5.1.1",
-        "babel-eslint":                   "~7.2.3"
+        "eslint-plugin-promise":          "~3.6.0",
+        "eslint-plugin-import":           "~2.8.0",
+        "eslint-plugin-node":             "~5.2.1",
+        "babel-eslint":                   "~8.0.3"
     },
     "dependencies": {
-        "mz":                             "~2.6.0",
-        "ducky":                          "~2.6.1",
+        "mz":                             "~2.7.0",
+        "ducky":                          "~2.6.3",
         "extend":                         "~3.0.1",
-        "js-yaml":                        "~3.9.1"
+        "js-yaml":                        "~3.10.0"
     },
     "engines": {
         "node":                           ">=6.0.0"
