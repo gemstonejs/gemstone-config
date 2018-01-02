@@ -76,7 +76,7 @@ module.exports = () => {
                     string*
                 ],
                 provide?: [
-                    { name: string, require: string }*
+                    { name: string, require: (string | [ string* ]) }*
                 ],
                 replace?: [
                     { match: string, replace: (string | [ [ string, string ]* ] ) }*
