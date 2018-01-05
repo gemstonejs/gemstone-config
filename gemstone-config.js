@@ -53,11 +53,11 @@ module.exports = () => {
         let errors = []
         if (!ducky.validate(chunk, `{
             path?: {
-                output?: string,
-                source?: string,
-                resource?: string,
-                main?:   string,
-                icon?:   string
+                output?:      string,
+                source?:      string,
+                resource?:    string,
+                main?:        string,
+                icon?:        string
             },
             meta?: {
                 title?:       string,
@@ -67,9 +67,9 @@ module.exports = () => {
             },
             header?: string,
             linting?: {
-                eslint?: object,
-                htmlhint?: object,
-                stylelint?: object
+                eslint?:      object,
+                htmlhint?:    object,
+                stylelint?:   object
             },
             modules?: {
                 source?: [
@@ -89,12 +89,12 @@ module.exports = () => {
                 ]
             },
             generator?: {
-                mask?:  string,
-                style?: string,
-                i18n?:  string,
-                view?:  string,
-                model?: string,
-                ctrl?:  string
+                mask?:        string,
+                style?:       string,
+                i18n?:        string,
+                view?:        string,
+                model?:       string,
+                ctrl?:        string
             }
         }`, errors))
             throw new Error(`invalid Gemstone configuration chunk in "${filename}": ${errors.join("; ")}`)
