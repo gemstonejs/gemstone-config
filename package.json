@@ -1,6 +1,6 @@
 {
     "name":        "gemstone-config",
-    "version":     "0.9.31",
+    "version":     "0.9.32",
     "description": "Configuration Reader of Gemstone JavaScript Technology Stack",
     "license":     "Apache-2.0",
     "author": {
