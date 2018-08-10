@@ -27,7 +27,7 @@
     },
     "dependencies": {
         "mz":                             "2.7.0",
-        "ducky":                          "2.6.11",
+        "ducky":                          "2.6.12",
         "extend":                         "3.0.2",
         "js-yaml":                        "3.12.0"
     },
