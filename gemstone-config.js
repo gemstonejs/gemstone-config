@@ -11,7 +11,7 @@ const jsYAML = require("js-yaml")
 
 module.exports = () => {
     /*  default Gemstone configuration  */
-    let cfg = {
+    const cfg = {
         path: {
             output:   "./dst",
             source:   "./src",
@@ -50,7 +50,7 @@ module.exports = () => {
 
     /*  validate a Gemstone configuration chunk  */
     const validate = (filename, chunk) => {
-        let errors = []
+        const errors = []
         if (!ducky.validate(chunk, `{
             path?: {
                 output?:      string,
@@ -137,7 +137,7 @@ module.exports = () => {
     })
 
     /*  try to load Gemstone configuration chunks from NPM files  */
-    let filename = "package.json"
+    const filename = "package.json"
     if (fs.existsSync(filename)) {
         let chunk
         try {
